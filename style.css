@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkslateblue;
+    overflow: hidden;
+}
+
+.app {
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.btn {
+    background-color: azure;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: beige;
+}
+
+#next-btn {
+    width: 150px;
+    padding: 10px;
+    margin: 30px 200px;
+    background-color: blue;
+    color: beige;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background-color: green;
+
+}
+
+.incorrect {
+    background-color: red;
+}
